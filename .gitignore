@@ -8,12 +8,47 @@
 *.pdf
 *.exe
 
+# IDE and Editor files
+.trae/
+.vscode/
+.idea/
+*.iml
+
+# Build outputs
+target/
+dist/
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Sensitive configuration files
+library-backend/src/main/resources/application.yml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
 # 前端依赖
 node_modules/
 
 # 后端依赖
 vendor/
-.idea/
-.vscode/
 __pycache__/
 *.pyc
+
+# Package manager locks (optional, uncomment if needed)
+# package-lock.json
+# yarn.lock
