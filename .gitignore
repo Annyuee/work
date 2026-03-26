@@ -1,0 +1,19 @@
+# 忽略超大文件
+*.zip
+*.rar
+*.tar
+*.gz
+*.mp4
+*.avi
+*.pdf
+*.exe
+
+# 前端依赖
+node_modules/
+
+# 后端依赖
+vendor/
+.idea/
+.vscode/
+__pycache__/
+*.pyc
